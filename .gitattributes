@@ -1,1 +1,2 @@
 Clientes/Simpar/Novembro[[:space:]]-[[:space:]]Amortized.csv filter=lfs diff=lfs merge=lfs -text
+*.csv filter=lfs diff=lfs merge=lfs -text
