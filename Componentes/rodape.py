@@ -11,7 +11,7 @@ def rodape():
             left: 0;
             bottom: 0;
             width: 100%;
-            background-color: magenta;
+            background-color: #00E5B0;
             color: white;
             text-align: center;
             padding: 10px 0;

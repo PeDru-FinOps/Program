@@ -16,7 +16,7 @@ def menu_superior():
             top: 50px;
             left: 0;
             z-index: 10;
-            background-color: magenta;
+            background-color: #00E5B0;
         }
         .header {
             color: white;
@@ -29,7 +29,7 @@ def menu_superior():
             display: flex;
             justify-content: center;
             align-items: center;
-            background-color: magenta;
+            background-color: #00E5B0;
             padding: 10px 0;
             font-size: 18px;
             font-weight: bold;
@@ -52,6 +52,7 @@ def menu_superior():
         '<div class="topbar">'
         '<div class="header">Helena</div>'
         '<div class="menu-superior">'
+        '<a href="#">Início</a>'
         '<a href="#">Dashboard</a>'
         '<a href="#">Coletas</a>'
         '<a href="#">Ferramentas</a>'
