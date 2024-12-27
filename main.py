@@ -2,6 +2,7 @@
 import streamlit as st
 from Componentes.rodape import rodape
 from Pages.dash_custos import exibir_dash_custos
+from Pages.home import exibir_home
 
 def main():
     st.sidebar.title("Helena")
@@ -22,7 +23,7 @@ def main():
     elif option == "Funções":
         "Teste"
     elif option == "Home":
-        "Teste"
+        exibir_home()
 
 # Executa a aplicação Streamlit
 if __name__ == "__main__":

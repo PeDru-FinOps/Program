@@ -1,6 +1,7 @@
 # IMPORTAR AS BIBLIOTECAS
 import streamlit as st
 import pandas as pd
+from Componentes.rodape import rodape
 
 # CRIAR FUNÇÕES DE CARREGAMENTO DE DADOS
 
@@ -34,3 +35,5 @@ def exibir_dash_custos():
 
     grafico = base_filtrada.groupby('Date')['Cost'].sum()
     st.bar_chart(grafico)
+
+    rodape()
